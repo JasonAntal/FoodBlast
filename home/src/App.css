@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@500&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #92AD94;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: Merriweather;
+  font-size: 1.4rem;
+}
+
+#displayArea{
+  background-color: #255957;
+  color: #f5fbef;
+  border-radius: .4rem;
+  animation:fadeIn 1.5s;
+  margin-bottom: 2rem;
+  padding: .7rem 1.1rem .7rem 1.1rem;
+  margin: 0 15vh 2.5vh 15vh;
+  line-height: 1.9;
+}
+
+#homeButton{
+  background-color:#255957;
+  color: #f5fbef;
+  animation:fadeIn 1.5s;
+}
+
+.btn{
+  font-size: .9rem;
+}
+
+.fadeIn{
+  animation:fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity:0
+  }
+  to{
+    opacity:1
+  }
+}
+
+@keyframes displayArea{
+  from{
+    opacity:0
+  }
+  to{
+    opacity:1
+  }
+}
+
+#cookingTime{
+  margin-right: 2rem;
+  background-color: rgba(47, 192, 76, 0.544);
+}
+
+#tryAgain{
+  background-color: #b12e14b5;
+}
+
+#goHome{
+  background-color: rgba(44, 44, 189, 0.925);
+  margin-bottom: 2vh;
+  margin-left: 4.5rem;
+}
+
+/*.navbar{
+  background-color: #663f46;
+  remember to get rid of bg dark class in the navbar
+}*/

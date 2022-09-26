@@ -6,13 +6,13 @@ import App from './App';
 import Navbar from './partials/navbar'
 import reportWebVitals from './reportWebVitals';
 
-const mysql = require('mysql');
+/*const mysql = require('mysql');
 const db = mysql.createPool({
 host: "localhost",
 user: "root",
 password: "Discord0)",
 database:"sakila" 
-})
+})*/
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 ReactDOM.render(<Navbar/>, document.getElementById('root'));

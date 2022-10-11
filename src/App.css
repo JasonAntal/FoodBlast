@@ -6,7 +6,7 @@
 }
 
 .App-header {
-  background-color: #92AD94;
+  background-color: #dbcdb5 ;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,6 +20,8 @@
 
 #displayArea{
   background-color: #255957;
+  background-image: url(./images/cookingPan2.png);
+  background-size: cover;
   color: #f5fbef;
   border-radius: .4rem;
   animation:fadeIn 1.5s;
@@ -27,10 +29,11 @@
   padding: .7rem 1.1rem .7rem 1.1rem;
   margin: 0 15vh 2.5vh 15vh;
   line-height: 1.9;
+
 }
 
 #homeButton{
-  background-color:#255957;
+  background-color:#663f46;
   color: #f5fbef;
   animation:fadeIn 1.5s;
 }
@@ -76,7 +79,6 @@
   margin-left: 4.5rem;
 }
 
-/*.navbar{
-  background-color: #663f46;
-  remember to get rid of bg dark class in the navbar
-}*/
+.navbar{
+  background-color: #663f46 !important;
+}
